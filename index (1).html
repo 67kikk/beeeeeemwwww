@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>BMW Auto Salon</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+   <header>
+       <nav>
+           <div class="logo">BMW Auto Salon</div>
+
+           <ul>
+               <li><a href="#home">Главная</a></li>
+               <li><a href="#about">О салоне</a></li>
+               <li><a href="#gallery">Модели</a></li>
+           </ul>
+
+           <button id="themeToggle">Сменить тему</button>
+       </nav>
+   </header>
+
+   <section id="home" class="hero">
+       <div class="hero-content">
+           <h1>Ощути мощь BMW</h1>
+           <p>Премиальные автомобили для настоящего драйва.</p>
+
+           <button class="cta-button" onclick="showAlert()">
+               Записаться на тест-драйв
+           </button>
+       </div>
+   </section>
+
+   <section id="about" class="content-section">
+       <h2>О нашем автосалоне</h2>
+
+       <p>
+           Мы предлагаем современные модели BMW,
+           профессиональный сервис и лучшие условия покупки.
+       </p>
+
+       <div class="card-container">
+
+           <div class="card">
+               <h3>Новые модели</h3>
+               <p>В наличии седаны, кроссоверы и спортивные BMW.</p>
+           </div>
+
+           <div class="card">
+               <h3>Сервис</h3>
+               <p>Гарантийное обслуживание и оригинальные запчасти.</p>
+           </div>
+
+       </div>
+   </section>
+
+   <section id="gallery" class="content-section">
+       <h2>Популярные модели BMW</h2>
+
+<div class="image-grid">
+
+    <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?q=80&w=1200"
+         alt="BMW 1">
+
+    <img src="https://images.unsplash.com/photo-1617531653520-4893f7bbf978?q=80&w=1200"
+         alt="BMW M3 G82">
+
+</div>
+   </section>
+
+   <footer>
+       <p>© 2026 BMW Auto Salon</p>
+   </footer>
+
+   <script src="script.js"></script>
+</body>
+</html>
